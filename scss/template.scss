@@ -154,3 +154,15 @@ section.colored {
     float: right;
   }
 }
+
+#imprint {
+  h4 {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .content {
+    padding: .5em;
+  }
+}

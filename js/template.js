@@ -19,6 +19,13 @@ sheet.addEventListener('error', function(e){
     console.error(e.detail.response);
 });
 
+var imprintHeadline = document.querySelector('#impressum h4');
+var imprintContent = document.querySelector('#impressum .content');
+
+imprintHeadline.addEventlistener('click', function(e) {
+    imprintContent.style.display = 'block';
+});
+
 
 // jQuery = jQuery || {};
 // jQuery(document).ready(function ($) {

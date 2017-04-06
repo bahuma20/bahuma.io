@@ -22,7 +22,7 @@ sheet.addEventListener('error', function(e){
 var imprintHeadline = document.querySelector('#impressum h4');
 var imprintContent = document.querySelector('#impressum .content');
 
-imprintHeadline.addEventlistener('click', function(e) {
+imprintHeadline.addEventListener('click', function(e) {
     imprintContent.style.display = 'block';
 });
 

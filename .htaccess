@@ -1,0 +1,18 @@
+Redirect /max/facebook https://facebook.com/bahuma20
+Redirect /facebook/max https://facebook.com/bahuma20
+Redirect /facebook https://www.facebook.com/bahuma.io
+
+Redirect /max/twitter https://twitter.com/bahuma20
+Redirect /twitter/max https://twitter.com/bahuma20
+Redirect /twitter https://twitter.com/bahuma20
+
+Redirect /max/googleplus https://plus.google.com/+MaxBachhuber
+Redirect /googleplus/max https://plus.google.com/+MaxBachhuber
+
+Redirect /max/github https://github.com/bahuma20
+Redirect /github/max https://github.com/bahuma20
+Redirect /github https://github.com/bahuma
+
+Redirect /hm https://home-manager.firebaseapp.com
+
+Redirect /sb https://soundboard.bahuma.io

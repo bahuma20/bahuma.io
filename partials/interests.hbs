@@ -1,0 +1,12 @@
+{{#if resume.interests}}
+    <div class="interests-container container-block">
+        <h2 class="container-block-title"><i class="fa fa-heart"></i> Intérêts</h2>
+         {{#if resume.interests.length}}
+        <div class="keywords">
+            {{#each resume.interests}}
+            <span class="label label-default">{{name}}</span>
+            {{/each}}
+        </div>
+        {{/if}}
+    </div><!--//interests-->
+{{/if}}

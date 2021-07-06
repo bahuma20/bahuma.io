@@ -36,13 +36,29 @@ Handlebars.registerHelper('toLowerCase', function(str) {
 	return str.toLowerCase();
 });
 
-Handlebars.registerHelper('year', function(str) {
-	if (str) {
-		var d = new Date(str);
-		return d.getFullYear();
-	} else {
-		return "Present"
+Handlebars.registerHelper('myDate', function(str) {
+	var mappings = {
+		'1': 'Jan.',
+		'2': 'Feb.',
+		'3': 'Mär.',
+		'4': 'Apr.',
+		'5': 'Mai',
+		'6': 'Jun.',
+		'7': 'Jul.',
+		'8': 'Aug.',
+		'9': 'Sep.',
+		'10': 'Okt.',
+		'11': 'Nov.',
+		'12': 'Dez.',
 	}
+
+	if (!str) {
+		return "Heute"
+	}
+
+	var d = new Date(str);
+
+	return mappings[(d.getMonth()+1).toString()] + ' ' + d.getFullYear();
 });
 
 Handlebars.registerHelper('award', function(str) {
@@ -68,6 +84,16 @@ Handlebars.registerHelper('skillLevel', function(str) {
 		default:
 			return parseInt(str) + "%"
 	}
+});
+
+Handlebars.registerHelper('firstWord', function(title) {
+	var t = title.split(" ");
+	return t[0];
+});
+
+Handlebars.registerHelper('lastWord', function(title) {
+	var t = title.split(" ");
+	return t[t.length-1];
 });
 
 // Resume.json used to have website property in some entries.  This has been renamed to url.

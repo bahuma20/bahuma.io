@@ -6,8 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: @text-color-secondary;
     background: @smoky-white;
-    font-size: 13px;
-    padding: 2px;
+    font-size: 16px;
+    padding: 20px 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -33,21 +33,23 @@ p {
 }
 
 .wrapper {
-    background:@theme-color;
+    min-height: 800px;
+    background: #FFF;
     max-width: 960px;
     margin: 0 auto;
     position: relative;
     .box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+    display: grid;
+    grid-template-columns: 100fr 260px;
+    grid-template-rows: auto;
+    grid-template-areas: "main sidebar";
 }
 
 .sidebar-wrapper {
     background: @theme-color;
-    position: absolute;
-    right: 0;
-    width: @sidebar-width;
-    height: 100%;
-    min-height: @sidebar-minheight;
     color: #fff;
+    grid-area: sidebar;
+
     a {
         color: #fff;
     }
@@ -66,10 +68,19 @@ p {
     }
     .tagline {
         color: rgba(256, 256, 256, 0.6);
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .location {
+        padding-left: 20px;
+        
+        i.fa {
+            margin-left: -20px;
+            width: 20px;
+            margin-right: 0;
+        }
     }
     .profile {
         margin-bottom: 15px;
@@ -99,13 +110,13 @@ p {
     }
     .container-block-title {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 15px;
     }
     .degree {
-        font-size: 14px;
+        font-size: 16px;
         margin-top: 0;
         margin-bottom: 5px;
     }
@@ -147,7 +158,8 @@ p {
             .label {
                 color: @theme-color !important;
                 background: @smoky-white !important;
-                line-height: 1.9rem;
+                line-height: 2.7rem;
+                font-size: 80%;
             }
         }
     }
@@ -157,7 +169,7 @@ p {
             overflow: hidden;
         }
         .level-title {
-            font-size: 14px;
+            font-size: 16px;
             margin-top: 0;
             margin-bottom: 12px;
         }
@@ -165,7 +177,8 @@ p {
             .label {
                 color: @theme-color !important;
                 background: @smoky-white !important;
-                line-height: 1.9rem;
+                line-height: 2.7rem;
+                font-size: 80%;
             }
         }
     }
@@ -174,11 +187,11 @@ p {
 .main-wrapper {
     background: #fff;
     padding: 30px;
-    padding-right: @sidebar-width + 60px;
-    min-height: @sidebar-minheight;
+    grid-area: main;
+
     .section-title {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         color: darken(@theme-color, 15%);
         position: relative;
@@ -204,7 +217,7 @@ p {
         margin-bottom: 0px;
     }
     .experiences-section {
-         margin-top: 25px;
+         margin-top: 40px;
         .item {
             margin-bottom: 30px;
         }
@@ -216,7 +229,7 @@ p {
     }
     .job-title {
         color: @text-color;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 0;
         margin-bottom: 0;
         font-weight: 500;
@@ -231,8 +244,11 @@ p {
         margin-bottom: 10px;
         color: @text-grey;
     }
+    .highlights {
+        margin-top: 1em;
+    }
     .project-title {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         margin-top: 0;
         margin-bottom: 5px;

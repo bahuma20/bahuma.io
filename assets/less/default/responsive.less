@@ -1,9 +1,15 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) { 
+    body {
+        padding: 0;
+    }
+    
+    .wrapper {
+        grid-template-columns: auto;
+        grid-template-areas: "sidebar" "main";
+    }
     
     .sidebar-wrapper {
-        position: static;
-        width: inherit;
     }
     
     .main-wrapper {

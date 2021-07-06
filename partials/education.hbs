@@ -1,11 +1,18 @@
 {{#if resume.education}}
-    <div class="education-container container-block">
-        <h2 class="container-block-title"><i class="fa fa-book"></i> Formation</h2>
+    <div class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-book"></i>Ausbildung</h2>
         {{#resume.education}}
             <div class="item">
-                <h4 class="degree">{{award studyType}} en {{area}}</h4>
-                <h5 class="meta">{{institution}}</h5>
-                <div class="time">{{year startDate}} - {{year endDate}}</div>
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{award studyType}} {{area}}</h3>
+                        <div class="time">{{myDate startDate}} - {{myDate endDate}}</div>
+                    </div><!--//upper-row-->
+                    <div class="company">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}<b>{{institution}}</b>{{#if url}}</a>{{/if}}</div>
+                </div><!--//meta-->
+                <div class="details">
+                    {{#markdown}}{{summary}}{{/markdown}}
+                </div><!--//details-->
             </div><!--//item-->
         {{/resume.education}}
     </div><!--//education-container-->

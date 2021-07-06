@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Person",
+      "name": "{{resume.basics.name}}",
+      "address": {
+        "@context": "http://schema.org/",
+        "@type": "PostalAddress",
+          "addressLocality": "{{resume.basics.location.city}}",
+          "addressRegion": "{{resume.basics.location.region}}",
+          "postalCode": "{{resume.basics.location.postalCode}}",
+          "streetAddress": "{{resume.basics.location.address}}",
+          "addressCountry": "{{resume.basics.location.countryCode}}"
+      },
+      "memberOf": {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "name": "{{resume.work.0.company}}",
+        "url": "{{resume.work.0.url}}"
+      },
+      "jobTitle": "{{resume.work.0.position}}",
+      "telephone": "{{resume.basics.phone}}",
+      "email": "{{resume.basics.email}}",
+      "familyName": "{{lastWord resume.basics.name}}",
+      "givenName": "{{firstWord resume.basics.name}}",
+      "gender": {
+        "@context": "http://schema.org",
+        "@type": "Male"
+      },
+      "url": "{{resume.basics.url}}",
+      "birthDate": "{{resume.basics.birth.date}}",
+      "knowsLanguage": [
+          {{#resume.languages}}
+          "{{language}}"{{#unless @last}},{{/unless}}
+          {{/resume.languages}}
+      ],
+      "nationality": "{{resume.basics.location.countryCode}}",
+      "image": "{{resume.basics.image}}"
+    }
+    </script>

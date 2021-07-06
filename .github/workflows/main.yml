@@ -40,7 +40,7 @@ jobs:
         run: npm run build:styles:3
 
       - name: Build HTML
-        run: resume export output/resume.html --theme=.
+        run: resume export output/index.html --theme=.
 
       - name: deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.0

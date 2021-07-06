@@ -8,3 +8,4 @@ saved-resume.json
 .idea/
 .envrc
 assets/css
+output/index.html

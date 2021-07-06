@@ -1,0 +1,262 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Max Bachhuber",
+    "label": "Web-Entwickler",
+    "image": "https://dl.bahuma.io/content/static/jsonresume_profile.jpg",
+    "email": "max.bachhuber@bahuma.io",
+    "phone": "+49 175 422 4666",
+    "url": "https://bahuma.io",
+    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert. Sowohl in der Backend- als auch in der Frontend-Entwicklung habe ich Kompetenzen. Neben dem Programmieren bin ich sehr aktiv in der Kolpingjugend.",
+    "location": {
+      "address": "Dietfurter Weg 4",
+      "postalCode": "92336",
+      "city": "Breitenbrunn",
+      "countryCode": "DE",
+      "region": "Bayern"
+    },
+    "birth": {
+      "place": "Regensburg",
+      "state": "Germany",
+      "date": "1996-08-20"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "bahuma20",
+        "url": "https://twitter.com/bahuma20"
+      },
+      {
+        "network": "Github",
+        "username": "bahuma",
+        "url": "https://github.com/bahuma"
+      },
+      {
+        "network": "Twitter",
+        "username": "bahuma20",
+        "url": "https://github.com/bahuma20"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Conrad Electronic SE",
+      "position": "Senior Expert Platform Development",
+      "location": "Amberg",
+      "startDate": "2021-05-02",
+      "url": "https://conrad.de"
+    },
+    {
+      "company": "bewegewas GmbH",
+      "position": "Senior Web Developer",
+      "location": "Amberg",
+      "startDate": "2018-02-01",
+      "endDate": "2021-05-01",
+      "summary": "Entwicklung und Integration von Kundenspezifischen Anforderungen ins Content-Management-System „Drupal“, Planung und Architektur von Plattformen, Hybride App-Entwicklung mit Angular und React",
+      "url": "https://bewegewas.com",
+      "highlights": [
+        "Studierendenportal für die Hochschule Coburg",
+        "Content-Management System für Siemens",
+        "Intranet-Plattform für die Rummelsberger Diakonie",
+        "Internet of Things Device zum Analysieren von Motoröl",
+        "App zur Steuerung von smarten Matratzen"
+      ]
+    },
+    {
+      "company": "Grasenhiller GmbH",
+      "position": "Webentwickler",
+      "location": "Neumarkt i.d.Opf.",
+      "startDate": "2015-07-31",
+      "endDate": "2018-01-31",
+      "summary": "Drupal-Backend-Entwicklung, Frontend-Entwicklung, Webhosting",
+      "highlights": [],
+      "url": "https://grasenhiller.de"
+    },
+    {
+      "company": "Grasenhiller GmbH",
+      "location": "Neumarkt i.d.Opf.",
+      "position": "Ausbildung Fachinformatiker - Anwendungsentwicklung",
+      "startDate": "2012-09-30",
+      "endDate": "2015-06-30",
+      "summary": "Drupal-Entwicklung, Drupal-Templating, Webhosting",
+      "highlights": [],
+      "url": "https://grasenhiller.de"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Kolpingjugend Diözesanverband Eichstätt",
+      "position": "Diözesanleiter",
+      "url": "https://kolpingjugend-eichstaett.de",
+      "startDate": "2017-11-30",
+      "summary": "Vertretung der Interessen der Kolpingjugendlichen im Diözesanverband Eichstätt im Diözesanvorstand, beim BDKJ, und auf überörtlichen Gremien.\n\nOrganisation, Planung und Leitung der Aktionen der Kolpingjugend DV Eichstätt.",
+      "highlights": []
+    },
+    {
+      "organization": "Kolpingsfamilie Dietfurt",
+      "position": "Öffentlichkeitsarbeit",
+      "url": "https://kolping-dietfurt.de",
+      "startDate": "2019-03-24",
+      "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Druckerzeugnissen.",
+      "highlights": [
+        "Youtube-Serie \"#Herzenssach\" (www.kolping-dietfurt.de/herzenssach)"
+      ]
+    },
+    {
+      "organization": "Kolpingsfamilie Dietfurt",
+      "position": "Jugendvertretung",
+      "url": "https://kolping-dietfurt.de/jugend",
+      "startDate": "2016-03-13",
+      "endDate": "2019-03-23",
+      "summary": "Vertretung der Kolpingjugend in der Vorstandschaft. Organisation und Verwaltung von Veranstaltungen, Zuschüssen, ...",
+      "highlights": [
+        "Selbstständige Organisation von Jugendwochenenden",
+        "Lagerleitung des Zeltlagers"
+      ]
+    },
+    {
+      "organization": "Kolpingjugend Dietfurt",
+      "position": "Gruppenleiter",
+      "url": "https://kolping-dietfurt.de/jugend",
+      "startDate": "2010-12-31",
+      "endDate": "2019-12-31",
+      "summary": "Organisieren und Leiten von Gruppenstunden und Freizeiten für Kinder und Jugendliche.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Staatl. Berufsschulzentrum Wiesau",
+      "url": "https://www.bsz-wiesau.de",
+      "area": "Fachinformatiker - Anwendungsentwicklung",
+      "studyType": "Ausbildung",
+      "startDate": "2012-12-31",
+      "endDate": "2015-12-31",
+      "score": "1,87 / 1,9",
+      "courses": []
+    },
+    {
+      "institution": "Altmühltal Realschule Beilngries",
+      "url": "https://www.realschule-beilngries.de/",
+      "area": "Wirtschafts-Zweig",
+      "studyType": "Mittlere Reife",
+      "startDate": "2006-09-01",
+      "endDate": "2012-07-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "certificates": [
+    {
+      "date": "2014-07-01",
+      "issuer": "Cisco",
+      "name": "CCNA Discovery: Working at a Small-to-Medium Business or ISP"
+    },
+    {
+      "date": "2013-09-01",
+      "issuer": "Cisco",
+      "name": "CCNA Discovery: Networking for Home and Small Business"
+    },
+    {
+      "date": "2011-12-01",
+      "issuer": "Kolpingjugend DV Eichstätt",
+      "name": "Gruppenleiterschulung"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "PHP",
+        "JavaScript",
+        "TypeScript",
+        "HTML 5",
+        "CSS 3",
+        "Web Components",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Drupal 7",
+        "Drupal 8",
+        "Drupal 9",
+        "Symfony",
+        "Laravel",
+        "express.js",
+        "Solr"
+      ]
+    },
+    {
+      "name": "Web Applications",
+      "level": "Master",
+      "keywords": [
+        "Angular",
+        "React",
+        "Drupal",
+        "Firebase",
+        "Progressive Web Apps"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Gitlab CI",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "name": "Videoproduktion",
+      "level": "Beginner",
+      "keywords": [
+        "Adobe Premiere Pro",
+        "Adobe After Effects",
+        "Regie, Planung, Organisation"
+      ]
+    },
+    { 
+      "name": "Weitere",
+      "keywords": [
+        "Java"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "Fließend"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Gaming"
+    },
+    {
+      "name": "Filme & Serien"
+    },
+    {
+     "name": "Geocaching" 
+    },
+    {
+      "name": "Jugendarbeit"
+    }
+  ],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "canonical": "https://gist.github.com/bahuma20/14c035bbdfa21e58953704d9ebf56280",
+    "theme": "elegant"
+  }
+}

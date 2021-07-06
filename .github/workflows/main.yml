@@ -48,7 +48,7 @@ jobs:
           user: 'bahuma-me'
           server: 'server4.bahuma.io'
           user_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
-          host_public_key: "ssh-rsa tEPUrwIiZNMK8Sv30bn/IhGFbUtnA4yHn7Wv2IEaxiQ"
+          #host_public_key: "ssh-rsa tEPUrwIiZNMK8Sv30bn/IhGFbUtnA4yHn7Wv2IEaxiQ"
           local: './output'
           remote: '/var/www/vhosts/bahuma.io/httpdocs/www'
           mirror_options: "--verbose"

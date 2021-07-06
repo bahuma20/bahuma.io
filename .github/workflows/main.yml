@@ -43,11 +43,12 @@ jobs:
         run: resume export output/index.html --theme=.
 
       - name: deploy file
-        uses: Creepios/sftp-action@v1.0.1
+        uses: swillner/sftp-sync-action@v1.0
         with:
-          username: 'bahuma-me'
-          host: 'server4.bahuma.io'
-          port: 22
-          privateKey: ${{ secrets.SSH_PRIVATE_KEY }} 
-          localPath: './output'
-          remotePath: '/var/www/vhosts/bahuma.io/httpdocs/www/'
+          user: 'bahuma-me'
+          server: 'server4.bahuma.io'
+          user_private_key: ${{ secrets.SSH_PRIVATE_KEY }} 
+          host_public_key: "ssh-rsa tEPUrwIiZNMK8Sv30bn/IhGFbUtnA4yHn7Wv2IEaxiQ"
+          local: './output'
+          remote: '/var/www/vhosts/bahuma.io/httpdocs/www'
+          mirror_options: "--verbose"

@@ -49,5 +49,5 @@ jobs:
           host: 'server4.bahuma.io'
           port: 22
           privateKey: ${{ secrets.SSH_PRIVATE_KEY }} 
-          local_path: './output'
-          remote_path: '/var/www/vhosts/bahuma.io/httpdocs/www/'
+          localPath: './output'
+          remotePath: '/var/www/vhosts/bahuma.io/httpdocs/www/'

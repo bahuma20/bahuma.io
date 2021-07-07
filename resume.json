@@ -52,7 +52,7 @@
       "location": "Amberg",
       "startDate": "2018-02-01",
       "endDate": "2021-05-01",
-      "summary": "Entwicklung und Integration von Kundenspezifischen Anforderungen ins Content-Management-System „Drupal“, Planung und Architektur von Plattformen, Hybride App-Entwicklung mit Angular und React",
+      "summary": "Entwicklung und Integration von Kundenspezifischen Anforderungen mit dem Content-Management-System „Drupal“, Planung und Architektur von Plattformen, Hybride App-Entwicklung mit Angular und React",
       "url": "https://bewegewas.com",
       "highlights": [
         "Studierendenportal für die Hochschule Coburg",
@@ -69,7 +69,13 @@
       "startDate": "2015-07-31",
       "endDate": "2018-01-31",
       "summary": "Drupal-Backend-Entwicklung, Frontend-Entwicklung, Webhosting",
-      "highlights": [],
+      "highlights": [
+        "Intranet-Plattform für Fichtner Hof",
+        "Developer-Portal für DATEV",
+        "Mandantenfähige Digital Signage Lösung",
+        "Digital Signage mit Einbindung von Überwachungskameras und Statistiken",
+        "Über 50 Unternehmenswebsites"
+      ],
       "url": "https://grasenhiller.de"
     },
     {

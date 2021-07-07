@@ -66,7 +66,7 @@
       "company": "Grasenhiller GmbH",
       "position": "Webentwickler",
       "location": "Neumarkt i.d.Opf.",
-      "startDate": "2015-07-31",
+      "startDate": "2015-07-01",
       "endDate": "2018-01-31",
       "summary": "Drupal-Backend-Entwicklung, Frontend-Entwicklung, Webhosting",
       "highlights": [
@@ -82,11 +82,33 @@
       "company": "Grasenhiller GmbH",
       "location": "Neumarkt i.d.Opf.",
       "position": "Ausbildung Fachinformatiker - Anwendungsentwicklung",
-      "startDate": "2012-09-30",
+      "startDate": "2012-09-01",
       "endDate": "2015-06-30",
       "summary": "Drupal-Entwicklung, Drupal-Templating, Webhosting",
       "highlights": [],
       "url": "https://grasenhiller.de"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Staatl. Berufsschulzentrum Wiesau",
+      "url": "https://www.bsz-wiesau.de",
+      "area": "Fachinformatiker - Anwendungsentwicklung",
+      "studyType": "Ausbildung",
+      "startDate": "2012-09-01",
+      "endDate": "2015-06-30",
+      "score": "1,87 / 1,9",
+      "courses": []
+    },
+    {
+      "institution": "Altmühltal Realschule Beilngries",
+      "url": "https://www.realschule-beilngries.de/",
+      "area": "Wirtschafts-Zweig",
+      "studyType": "Mittlere Reife",
+      "startDate": "2006-09-01",
+      "endDate": "2012-07-31",
+      "score": "",
+      "courses": []
     }
   ],
   "volunteer": [
@@ -128,28 +150,6 @@
       "endDate": "2019-12-31",
       "summary": "Organisieren und Leiten von Gruppenstunden und Freizeiten für Kinder und Jugendliche.",
       "highlights": []
-    }
-  ],
-  "education": [
-    {
-      "institution": "Staatl. Berufsschulzentrum Wiesau",
-      "url": "https://www.bsz-wiesau.de",
-      "area": "Fachinformatiker - Anwendungsentwicklung",
-      "studyType": "Ausbildung",
-      "startDate": "2012-12-31",
-      "endDate": "2015-12-31",
-      "score": "1,87 / 1,9",
-      "courses": []
-    },
-    {
-      "institution": "Altmühltal Realschule Beilngries",
-      "url": "https://www.realschule-beilngries.de/",
-      "area": "Wirtschafts-Zweig",
-      "studyType": "Mittlere Reife",
-      "startDate": "2006-09-01",
-      "endDate": "2012-07-31",
-      "score": "",
-      "courses": []
     }
   ],
   "awards": [],

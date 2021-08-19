@@ -22,7 +22,7 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "Twitter",
         "username": "bahuma20",
         "url": "https://twitter.com/bahuma20"
       },
@@ -32,9 +32,14 @@
         "url": "https://github.com/bahuma"
       },
       {
-        "network": "Twitter",
+        "network": "Github",
         "username": "bahuma20",
         "url": "https://github.com/bahuma20"
+      },
+      {
+        "network": "Instagram",
+        "username": "bahuma20",
+        "url": "https://instagram.com/bahuma20"
       }
     ]
   },

@@ -118,11 +118,19 @@
   ],
   "volunteer": [
     {
+      "organization": "Kolpingsfamilie Dietfurt",
+      "position": "Leitungsteam",
+      "url": "https://kolping-dietfurt.de",
+      "startDate": "2021-10-03",
+      "summary": "Leitung der Kolpingsfamilie Dietfurt",
+      "highlights": []
+    },
+    {
       "organization": "Kolpingjugend Diözesanverband Eichstätt",
       "position": "Diözesanleiter",
       "url": "https://kolpingjugend-eichstaett.de",
       "startDate": "2017-11-30",
-      "summary": "Vertretung der Interessen der Kolpingjugendlichen im Diözesanverband Eichstätt im Diözesanvorstand, beim BDKJ, und auf überörtlichen Gremien.\n\nOrganisation, Planung und Leitung der Aktionen der Kolpingjugend DV Eichstätt.",
+      "summary": "Vertretung der Interessen der Kolpingjugendlichen im Diözesanverband Eichstätt im Diözesanvorstand, beim BDKJ, und auf überörtlichen Gremien.\n\nOrganisation, Planung und Leitung von Aktionen der Kolpingjugend DV Eichstätt.",
       "highlights": []
     },
     {
@@ -130,7 +138,7 @@
       "position": "Öffentlichkeitsarbeit",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2019-03-24",
-      "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Druckerzeugnissen.",
+      "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Flyern, Broschüren und co.",
       "highlights": [
         "Youtube-Serie \"#Herzenssach\" (www.kolping-dietfurt.de/herzenssach)"
       ]

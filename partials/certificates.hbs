@@ -1,0 +1,17 @@
+{{#if resume.certificates}}
+    <section class="section experiences-section">
+        <h2 class="section-title"><i class="fa fa-certificate"></i>Zertifizierungen</h2>
+
+        {{#resume.certificates}}
+            <div class="item">
+                <div class="meta">
+                    <div class="upper-row">
+                        <h3 class="job-title">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if url}}</a>{{/if}}</h3>
+                        <div class="time">{{myDate date}}</div>
+                    </div><!--//upper-row-->
+                    <div class="company">{{issuer}}</div>
+                </div><!--//meta-->
+            </div><!--//item-->
+        {{/resume.certificates}}
+    </section><!--//section-->
+{{/if}}

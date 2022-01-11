@@ -3,7 +3,7 @@
   "basics": {
     "name": "Max Bachhuber",
     "label": "Web-Entwickler",
-    "image": "https://dl.bahuma.io/content/static/jsonresume_profile.jpg",
+    "image": "https://bahuma.io/files/profile.jpg",
     "email": "max.bachhuber@bahuma.io",
     "phone": "+49 175 422 4666",
     "url": "https://bahuma.io",
@@ -167,17 +167,20 @@
     {
       "date": "2014-07-01",
       "issuer": "Cisco",
-      "name": "CCNA Discovery: Working at a Small-to-Medium Business or ISP"
+      "name": "CCNA Discovery: Working at a Small-to-Medium Business or ISP",
+      "url": "https://bahuma.io/files/certificates/ccna-2.pdf"
     },
     {
       "date": "2013-09-01",
       "issuer": "Cisco",
-      "name": "CCNA Discovery: Networking for Home and Small Business"
+      "name": "CCNA Discovery: Networking for Home and Small Business",
+      "url": "https://bahuma.io/files/certificates/ccna-1.pdf"
     },
     {
       "date": "2011-12-01",
       "issuer": "Kolpingjugend DV Eichstätt",
-      "name": "Gruppenleiterschulung"
+      "name": "Gruppenleiterschulung",
+      "url": "https://bahuma.io/files/certificates/grusl.pdf"
     }
   ],
   "skills": [
@@ -191,8 +194,7 @@
         "HTML 5",
         "CSS 3",
         "Web Components",
-        "MySQL",
-        "MongoDB"
+        "MySQL"
       ]
     },
     {
@@ -203,9 +205,9 @@
         "Drupal 8",
         "Drupal 9",
         "Symfony",
-        "Laravel",
-        "express.js",
-        "Solr"
+        "Java",
+        "Solr",
+        "express.js"
       ]
     },
     {
@@ -235,12 +237,6 @@
         "Adobe Premiere Pro",
         "Adobe After Effects",
         "Regie, Planung, Organisation"
-      ]
-    },
-    { 
-      "name": "Weitere",
-      "keywords": [
-        "Java"
       ]
     }
   ],

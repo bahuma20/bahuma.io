@@ -41,18 +41,16 @@
     "wordwrap": "^1.0.0"
   },
   "devDependencies": {
-    "less": "^3.9.0"
+    "cpy-cli": "^3.1.1",
+    "less": "^3.9.0",
+    "resume-cli": "^3.0.5"
   },
   "scripts": {
-    "serve": "resume serve --resume=resume.json",
-    "build:example": "resume export resume.html --resume=example-resume.json",
-    "build:styles": "lessc assets/less/default/styles.less assets/css/styles.css",
-    "build:styles:2": "lessc assets/less/theme-2/styles.less assets/css/styles.css",
-    "build:styles:3": "lessc assets/less/theme-3/styles.less assets/css/styles.css",
-    "build:styles:4": "lessc assets/less/theme-4/styles.less assets/css/styles.css",
-    "build:styles:5": "lessc assets/less/theme-5/styles.less assets/css/styles.css",
-    "build:styles:6": "lessc assets/less/theme-6/styles.less assets/css/styles.css",
-    "release:prepare": "git checkout master && git pull && npm version patch -m \"Release: %s\""
+    "start": "npm run-script build",
+    "build": "npm run-script build:styles && npm run-script build:resume && cpy resume.json public",
+    "build:resume": "resume export public/index.html --resume=resume.json --theme=.",
+    "build:styles": "lessc assets/less/theme/styles.less assets/css/styles.css",
+    "serve": "npm run-script build:styles && resume serve --resume=resume.json --theme=."
   },
   "keywords": [
     "json",

@@ -1,4 +1,5 @@
-public/
+public/index.html
+public/resume.json
 node_modules/
 npm-debug.log
 resume.html
@@ -8,4 +9,3 @@ saved-resume.json
 .idea/
 .envrc
 assets/css
-output/index.html

@@ -2,7 +2,7 @@ var fs = require("fs");
 var path = require('path');
 var Handlebars = require("handlebars");
 var utils = require('handlebars-utils');
-var marked = require('marked');
+var { marked } = require('marked');
 
 Handlebars.registerHelper('markdown', function(str, locals, options) {
 	if (typeof str !== 'string') {
@@ -19,7 +19,7 @@ Handlebars.registerHelper('markdown', function(str, locals, options) {
 	var ctx = utils.context(this, locals, options);
 	var val = utils.value(str, ctx, options);
 
-	var markup = marked(val);
+	var markup = marked.parse(val);
 
 	// If we end up with a string wrapped in one <p> block, remove it so we don't create a new text block
 	var startEndMatch = markup.match(/^<p>(.*)<\/p>\n$/);

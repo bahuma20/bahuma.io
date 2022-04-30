@@ -27,6 +27,11 @@
         "url": "https://twitter.com/bahuma20"
       },
       {
+        "network": "Mastodon",
+        "username": "bahuma20@troet.cafe",
+        "url": "https://troet.cafe/bahuma20"
+      },
+      {
         "network": "Github",
         "username": "bahuma20",
         "url": "https://github.com/bahuma20"

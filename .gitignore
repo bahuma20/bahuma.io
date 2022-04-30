@@ -1,5 +1,6 @@
 public/index.html
 public/resume.json
+public/assts/fontawesome
 node_modules/
 npm-debug.log
 resume.html

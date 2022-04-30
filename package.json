@@ -17,6 +17,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "copy-anything": "^2.0.1",
     "errno": "^0.1.8",
     "graceful-fs": "^4.2.4",
@@ -41,15 +42,16 @@
     "wordwrap": "^1.0.0"
   },
   "devDependencies": {
-    "cpy-cli": "^3.1.1",
+    "cpy-cli": "^4.1.0",
     "less": "^3.9.0",
     "resume-cli": "^3.0.5"
   },
   "scripts": {
     "start": "npm run-script build",
-    "build": "npm run-script build:styles && npm run-script build:resume && cpy resume.json public",
+    "build": "npm run-script build:styles && npm run-script build:resume && npm run-script build:fontawesome && cpy resume.json public",
     "build:resume": "resume export public/index.html --resume=resume.json --theme=.",
     "build:styles": "lessc assets/less/theme/styles.less assets/css/styles.css",
+    "build:fontawesome": "cpy --flat node_modules/@fortawesome/fontawesome-free/css public/assets/fontawesome/css && cpy --flat node_modules/@fortawesome/fontawesome-free/webfonts public/assets/fontawesome/webfonts",
     "serve": "npm run-script build:styles && resume serve --resume=resume.json --theme=."
   },
   "keywords": [

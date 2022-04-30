@@ -85,7 +85,7 @@ p {
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
-.sidebar-wrapper .contact-list .fa {
+.sidebar-wrapper .contact-list [class*="fa"] {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
@@ -96,7 +96,7 @@ p {
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .contact-list .email .fa {
+.sidebar-wrapper .contact-list .email [class*="fa"] {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
@@ -166,7 +166,7 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
-.main-wrapper .section-title .fa {
+.main-wrapper .section-title [class*="fa"] {
   width: 30px;
   height: 30px;
   margin-right: 8px;
@@ -253,7 +253,7 @@ p {
   color: #545E6C;
   font-size: 13px;
 }
-.footer .fa-heart {
+.footer [class*="fa"]-heart {
   color: #fb866a;
 }
 /* Extra small devices (phones, less than 768px) */

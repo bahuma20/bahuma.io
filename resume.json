@@ -49,7 +49,7 @@
       "position": "Expert Digital Development",
       "location": "Amberg",
       "startDate": "2021-05-02",
-      "summary": "Backend Development mit Java für die OCI-Shop Anbindung.",
+      "summary": "Backend Development mit Java für die OCI-Shop Anbindung des Conrad Shops und des Käufer-Selfservice-Portals.",
       "url": "https://conrad.de"
     },
     {
@@ -217,7 +217,10 @@
         "Drupal 9",
         "Symfony",
         "Java",
+        "Spring",
+        "Micronaut",
         "Solr",
+        "Redis",
         "express.js"
       ]
     },
@@ -238,7 +241,11 @@
       "keywords": [
         "Gitlab CI",
         "Docker",
-        "Kubernetes"
+        "Kubernetes",
+        "Helm",
+        "Terraform",
+        "Apigee",
+        "Google Cloud"
       ]
     },
     {

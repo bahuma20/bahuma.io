@@ -179,6 +179,12 @@
   "publications": [],
   "certificates": [
     {
+      "date": "2022-12-22",
+      "issuer": "The Linux Foundation",
+      "name": "CKAD: Certified Kubernetes Application Developer",
+      "url": "https://www.credly.com/badges/618d726f-7f97-4bbe-a15e-235c7687a9c9/public_url"
+    },
+    {
       "date": "2022-02-10",
       "issuer": "Gitlab",
       "name": "Certified Security Specialist",

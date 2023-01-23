@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Max Bachhuber",
-    "label": "Web-Entwickler",
+    "label": "Software-Entwickler",
     "image": "https://bahuma.io/files/profile.jpg",
     "email": "max.bachhuber@bahuma.io",
     "phone": "+49 175 422 4666",
     "url": "https://bahuma.io",
-    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert. Sowohl in der Backend- als auch in der Frontend-Entwicklung. Neben der Softwareentwicklung bin ich sehr aktiv in der Kolpingjugend.",
+    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut. Neben der Softwareentwicklung bin ich ehrenamtlich im Leitungsteam der Kolpingsfamilie Dietfurt und beschäftige mit mit einigen Open Source Projekten, dem Fediverse und Self-Hosting.",
     "location": {
       "address": "Dietfurter Weg 4",
       "postalCode": "92336",
@@ -22,11 +22,6 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "bahuma20",
-        "url": "https://twitter.com/bahuma20"
-      },
-      {
         "network": "Mastodon",
         "username": "bahuma20@noitl.space",
         "url": "https://noitl.space/@bahuma20"
@@ -37,9 +32,9 @@
         "url": "https://github.com/bahuma20"
       },
       {
-        "network": "Instagram",
-        "username": "bahuma20",
-        "url": "https://instagram.com/bahuma20"
+        "network": "Pixelfed",
+        "username": "bahuma20@pixelfed.de",
+        "url": "https://pixelfed.de/bahuma20"
       }
     ]
   },
@@ -49,7 +44,11 @@
       "position": "Expert Digital Development",
       "location": "Amberg",
       "startDate": "2021-05-02",
-      "summary": "Backend Development mit Java für die OCI-Shop Anbindung des Conrad Shops und des Käufer-Selfservice-Portals.",
+      "summary": "Backend Development für die Cloud mit Java",
+      "highlights": [
+        "OCI-Shop der Conrad Sourcing Platform",
+        "Kunden Selfservice-Portal"
+      ],
       "url": "https://conrad.de"
     },
     {
@@ -131,6 +130,7 @@
       "position": "Leitungsteam",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2021-10-03",
+      "endDate": "2023-03-31",
       "summary": "Leitung der Kolpingsfamilie Dietfurt",
       "highlights": []
     },
@@ -148,6 +148,7 @@
       "position": "Öffentlichkeitsarbeit",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2019-03-24",
+      "endDate": "2023-03-31",
       "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Flyern, Broschüren und co.",
       "highlights": [
         "Youtube-Serie \"#Herzenssach\" (www.kolping-dietfurt.de/herzenssach)"
@@ -211,16 +212,17 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Frontend Development",
       "level": "Master",
       "keywords": [
-        "PHP",
+        "Angular",
+        "React",
         "JavaScript",
         "TypeScript",
         "HTML 5",
         "CSS 3",
         "Web Components",
-        "MySQL"
+        "Progressive Web Apps"
       ]
     },
     {
@@ -230,24 +232,16 @@
         "Drupal 7",
         "Drupal 8",
         "Drupal 9",
+        "PHP",
         "Symfony",
         "Java",
         "Spring",
         "Micronaut",
         "Solr",
         "Redis",
-        "express.js"
-      ]
-    },
-    {
-      "name": "Web Applications",
-      "level": "Master",
-      "keywords": [
-        "Angular",
-        "React",
-        "Drupal",
         "Firebase",
-        "Progressive Web Apps"
+        "express.js",
+        "MySQL"
       ]
     },
     {
@@ -285,16 +279,48 @@
   ],
   "interests": [
     {
-      "name": "Gaming"
+      "name": "Gaming",
+      "keywords": ["RPGs", "Fabrik-Simulation", "Puzzle", "Point and Click Adventures"]
     },
     {
-      "name": "Filme & Serien"
+      "name": "Filme & Serien",
+      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "Superhero", "Comedy"]
     },
     {
      "name": "Geocaching" 
     },
     {
       "name": "Jugendarbeit"
+    },
+    {
+      "name": "Open Source"
+    },
+    {
+      "name": "Fediverse",
+      "keywords": ["Mastodon", "Bookwyrm", "Pixelfed"]
+    },
+    {
+      "name": "Self-Hosting",
+      "keywords": ["Matrix / Dendrite", "Mastodon", "Gitea", "Collabora", "Paperless"]
+    },
+    {
+      "name": "Cloud-Technologien"
+    },
+    {
+      "name": "Urban Art",
+      "keywords": ["Graffiti", "Street Art", "Architektur"]
+    },
+    {
+      "name": "Politik",
+      "keywords": ["Netzpolitik", "Energiepolitik", "Sozialpolitik", "Gesellschaftspolitik"]
+    },
+    {
+      "name": "Kochen",
+      "keywords": ["Italienisch", "Deutsch", "Indisch", "Asiatisch"]
+    },
+    {
+      "name": "Podcasts",
+      "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio"]
     }
   ],
   "references": [],

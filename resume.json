@@ -321,7 +321,11 @@
     {
       "name": "Podcasts",
       "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio"]
-    }
+    },
+    {
+      "name": "Smart Home",
+      "keywords": ["Home Assistant", "Zigbee", "Matter", "Thread"]
+    }    
   ],
   "references": [],
   "projects": [],

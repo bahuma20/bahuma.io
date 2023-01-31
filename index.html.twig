@@ -231,7 +231,7 @@
                     {% for workItem in resume.work %}
                     <div class="timeline-item wow {% if loop.index is odd %}left slideInLeft{% else %}right slideInRight{% endif %}" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">{{ workItem.startDate|date('M Y') }} - {% if workItem.endDate %}{{ workItem.endDate|date('M Y') }}{% else %}jetzt{% endif %}</div>
+                            <div class="timeline-date">{{ workItem.startDate|mdate }} - {% if workItem.endDate %}{{ workItem.endDate|mdate }}{% else %}jetzt{% endif %}</div>
                             <h2>{{ workItem.position }}</h2>
                             <h4><a href="{{ workItem.url }}" target="_blank">{{ workItem.company }}</a>, {{ workItem.location }}</h4>
                             <p>{{ workItem.summary }}</p>
@@ -263,7 +263,7 @@
                     {% for educationItem in resume.education %}
                         <div class="timeline-item wow {% if loop.index is odd %}left slideInLeft{% else %}right slideInRight{% endif %}" data-wow-delay="0.1s">
                             <div class="timeline-text">
-                                <div class="timeline-date">{{ educationItem.startDate|date('M Y') }} - {% if educationItem.endDate %}{{ educationItem.endDate|date('M Y') }}{% else %}jetzt{% endif %}</div>
+                                <div class="timeline-date">{{ educationItem.startDate|mdate }} - {% if educationItem.endDate %}{{ educationItem.endDate|mdate }}{% else %}jetzt{% endif %}</div>
                                 <h2>{{ educationItem.studyType }}</h2>
                                 <h4><a href="{{ educationItem.url }}" target="_blank">{{ educationItem.institution }}</a></h4>
                                 <p>{{ educationItem.area }}</p>
@@ -347,7 +347,7 @@
                     {% for volunteerItem in resume.volunteer %}
                         <div class="timeline-item wow {% if loop.index is odd %}left slideInLeft{% else %}right slideInRight{% endif %}" data-wow-delay="0.1s">
                             <div class="timeline-text">
-                                <div class="timeline-date">{{ volunteerItem.startDate|date('M Y') }} - {% if volunteerItem.endDate %}{{ volunteerItem.endDate|date('M Y') }}{% else %}jetzt{% endif %}</div>
+                                <div class="timeline-date">{{ volunteerItem.startDate|mdate }} - {% if volunteerItem.endDate %}{{ volunteerItem.endDate|mdate }}{% else %}jetzt{% endif %}</div>
                                 <h2>{{ volunteerItem.position }}</h2>
                                 <h4><a href="{{ volunteerItem.url }}" target="_blank">{{ volunteerItem.organization }}</a></h4>
                                 <p>{{ volunteerItem.summary }}</p>

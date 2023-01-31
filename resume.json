@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Max Bachhuber",
-    "label": "Software-Entwickler",
+    "label": "Software-Entwickler, Backend Developer, Full-Stack-Developer, Serien-Junkie, Kolpingjugendlicher, Open Source Liebhaber, Early Adopter, Smart Home Spezialist",
     "image": "https://bahuma.io/files/profile.jpg",
     "email": "max.bachhuber@bahuma.io",
     "phone": "+49 175 422 4666",
     "url": "https://bahuma.io",
-    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut. Neben der Softwareentwicklung bin ich ehrenamtlich im Leitungsteam der Kolpingsfamilie Dietfurt und beschäftige mit mit einigen Open Source Projekten, dem Fediverse und Self-Hosting.",
+    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut.\nNeben der Softwareentwicklung bin ich ehrenamtlich im Leitungsteam der Kolpingsfamilie Dietfurt und beschäftige mit mit einigen Open Source Projekten, dem Fediverse und Self-Hosting.",
     "location": {
       "address": "Dietfurter Weg 4",
       "postalCode": "92336",
@@ -22,19 +22,22 @@
     },
     "profiles": [
       {
-        "network": "Mastodon",
-        "username": "bahuma20@noitl.space",
-        "url": "https://noitl.space/@bahuma20"
-      },
-      {
         "network": "Github",
         "username": "bahuma20",
-        "url": "https://github.com/bahuma20"
+        "url": "https://github.com/bahuma20",
+        "icon": "fab fa-github"
+      },
+      {
+        "network": "Mastodon",
+        "username": "bahuma20@noitl.space",
+        "url": "https://noitl.space/@bahuma20",
+        "icon": "fab fa-mastodon"
       },
       {
         "network": "Pixelfed",
         "username": "bahuma20@pixelfed.de",
-        "url": "https://pixelfed.de/bahuma20"
+        "url": "https://pixelfed.de/bahuma20",
+        "icon": "fa fa-camera-retro"
       }
     ]
   },
@@ -44,7 +47,7 @@
       "position": "Expert Digital Development",
       "location": "Amberg",
       "startDate": "2021-05-02",
-      "summary": "Backend Development für die Cloud mit Java",
+      "summary": "Backend Development für die Cloud mit Java.",
       "highlights": [
         "OCI-Shop der Conrad Sourcing Platform",
         "Kunden Selfservice-Portal"
@@ -57,7 +60,7 @@
       "location": "Amberg",
       "startDate": "2018-02-01",
       "endDate": "2021-05-01",
-      "summary": "Entwicklung und Integration von Kundenspezifischen Anforderungen mit dem Content-Management-System „Drupal“, Planung und Architektur von Plattformen, Hybride App-Entwicklung mit Angular und React",
+      "summary": "Entwicklung und Integration von Kundenspezifischen Anforderungen mit dem Content-Management-System „Drupal“, Planung und Architektur von Plattformen, Hybride App-Entwicklung mit Angular und React.",
       "url": "https://bewegewas.com",
       "highlights": [
         "Studierendenportal für die Hochschule Coburg",
@@ -73,7 +76,7 @@
       "location": "Neumarkt i.d.Opf.",
       "startDate": "2015-07-01",
       "endDate": "2018-01-31",
-      "summary": "Drupal-Backend-Entwicklung, Frontend-Entwicklung, Webhosting",
+      "summary": "Drupal-Backend-Entwicklung, Frontend-Entwicklung, Webhosting.",
       "highlights": [
         "Intranet-Plattform für Fichtner Hof",
         "Developer-Portal für DATEV",
@@ -130,8 +133,7 @@
       "position": "Leitungsteam",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2021-10-03",
-      "endDate": "2023-03-31",
-      "summary": "Leitung der Kolpingsfamilie Dietfurt",
+      "summary": "Leitung der Kolpingsfamilie Dietfurt.",
       "highlights": []
     },
     {
@@ -148,10 +150,9 @@
       "position": "Öffentlichkeitsarbeit",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2019-03-24",
-      "endDate": "2023-03-31",
       "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Flyern, Broschüren und co.",
       "highlights": [
-        "Youtube-Serie \"#Herzenssach\" (www.kolping-dietfurt.de/herzenssach)"
+        "Youtube-Serie \"#Herzenssach\""
       ]
     },
     {
@@ -183,13 +184,15 @@
       "date": "2022-12-22",
       "issuer": "The Linux Foundation",
       "name": "CKAD: Certified Kubernetes Application Developer",
-      "url": "https://www.credly.com/badges/618d726f-7f97-4bbe-a15e-235c7687a9c9/public_url"
+      "url": "https://www.credly.com/badges/618d726f-7f97-4bbe-a15e-235c7687a9c9/public_url",
+      "badge": "http://localhost:49226/files/badges/ckad-certified-kubernetes-application-developer.png"
     },
     {
       "date": "2022-02-10",
       "issuer": "Gitlab",
       "name": "Certified Security Specialist",
-      "url": "https://www.credly.com/badges/cfbf5f06-0daa-4fed-8277-d3d13057aa99/public_url"
+      "url": "https://www.credly.com/badges/cfbf5f06-0daa-4fed-8277-d3d13057aa99/public_url",
+      "badge": "http://localhost:49226/files/badges/gitlab-certified-security-specialist.png"
     },
     {
       "date": "2014-07-01",
@@ -223,7 +226,8 @@
         "CSS 3",
         "Web Components",
         "Progressive Web Apps"
-      ]
+      ],
+      "icon": "fa fa-desktop"
     },
     {
       "name": "Backend Development",
@@ -242,7 +246,8 @@
         "Firebase",
         "express.js",
         "MySQL"
-      ]
+      ],
+      "icon": "fa fa-server"
     },
     {
       "name": "DevOps",
@@ -255,7 +260,8 @@
         "Terraform",
         "Apigee",
         "Google Cloud"
-      ]
+      ],
+      "icon": "fa fa-cog"
     },
     {
       "name": "Videoproduktion",
@@ -264,7 +270,8 @@
         "Adobe Premiere Pro",
         "Adobe After Effects",
         "Regie, Planung, Organisation"
-      ]
+      ],
+      "icon": "fa fa-video"
     }
   ],
   "languages": [
@@ -280,52 +287,65 @@
   "interests": [
     {
       "name": "Gaming",
-      "keywords": ["RPGs", "Fabrik-Simulation", "Puzzle", "Point and Click Adventures"]
+      "keywords": ["RPGs", "Fabrik-Simulation", "Puzzle", "Point and Click Adventures"],
+      "icon": "fa fa-gamepad"
     },
     {
       "name": "Filme & Serien",
-      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "Superhero", "Comedy"]
+      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "Superhero", "Comedy"],
+      "icon": "fa fa-film"
     },
     {
-     "name": "Geocaching" 
+      "name": "Geocaching",
+      "icon": "far fa-compass"
     },
     {
-      "name": "Jugendarbeit"
+      "name": "Jugendarbeit",
+      "icon": "fa fa-child"
     },
     {
-      "name": "Open Source"
+      "name": "Open Source",
+      "icon": "fa fa-code"
     },
     {
       "name": "Fediverse",
-      "keywords": ["Mastodon", "Bookwyrm", "Pixelfed"]
+      "keywords": ["Mastodon", "Bookwyrm", "Pixelfed"],
+      "icon": "fa fa-project-diagram"
     },
     {
       "name": "Self-Hosting",
-      "keywords": ["Matrix / Dendrite", "Mastodon", "Gitea", "Collabora", "Paperless"]
+      "keywords": ["Matrix / Dendrite", "Mastodon", "Gitea", "Collabora", "Paperless"],
+      "icon": "fa fa-server"
     },
     {
-      "name": "Cloud-Technologien"
+      "name": "Cloud-Technologien",
+      "icon": "fa fa-cloud"
     },
     {
       "name": "Urban Art",
-      "keywords": ["Graffiti", "Street Art", "Architektur"]
+      "keywords": ["Graffiti", "Street Art", "Architektur"],
+      "icon": "fa fa-city"
     },
     {
       "name": "Politik",
-      "keywords": ["Netzpolitik", "Energiepolitik", "Sozialpolitik", "Gesellschaftspolitik"]
+      "keywords": ["Netzpolitik", "Energiepolitik", "Sozialpolitik", "Gesellschaftspolitik"],
+      "icon": "fa fa-landmark"
     },
     {
       "name": "Kochen",
-      "keywords": ["Italienisch", "Deutsch", "Indisch", "Asiatisch"]
+      "keywords": ["Italienisch", "Deutsch", "Indisch", "Asiatisch"],
+      "icon": "fa fa-pizza-slice"
     },
     {
       "name": "Podcasts",
-      "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio"]
+      "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio"],
+      "icon": "fa fa-podcast"
     },
     {
       "name": "Smart Home",
-      "keywords": ["Home Assistant", "Zigbee", "Matter", "Thread"]
-    }    
+      "keywords": ["Home Assistant", "Zigbee", "Matter", "Thread"],
+      "icon": "far fa-lightbulb"
+    }
   ],
   "references": [],
   "projects": [],

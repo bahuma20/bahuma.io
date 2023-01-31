@@ -1,0 +1,5 @@
+name: bahuma
+recipe: lamp
+config:
+  webroot: .
+  php: '8.1'

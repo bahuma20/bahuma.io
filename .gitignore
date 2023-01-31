@@ -1,12 +1,4 @@
-public/index.html
-public/resume.json
-public/assts/fontawesome
-node_modules/
-npm-debug.log
-resume.html
-resume.pdf
-saved-resume.json
+vendor
 .DS_Store
 .idea/
-.envrc
-assets/css
+cache

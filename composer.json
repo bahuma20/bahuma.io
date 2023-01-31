@@ -1,0 +1,20 @@
+{
+    "name": "bahuma20/bahuma.io",
+    "description": "bahuma.io personal website",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "twig/twig": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bahuma20\\BahumaIo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Max Bachhuber",
+            "email": "max.bachhuber@bahuma.io"
+        }
+    ]
+}

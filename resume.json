@@ -185,14 +185,14 @@
       "issuer": "The Linux Foundation",
       "name": "CKAD: Certified Kubernetes Application Developer",
       "url": "https://www.credly.com/badges/618d726f-7f97-4bbe-a15e-235c7687a9c9/public_url",
-      "badge": "http://localhost:49226/files/badges/ckad-certified-kubernetes-application-developer.png"
+      "badge": "https://bahuma.io/files/badges/ckad-certified-kubernetes-application-developer.png"
     },
     {
       "date": "2022-02-10",
       "issuer": "Gitlab",
       "name": "Certified Security Specialist",
       "url": "https://www.credly.com/badges/cfbf5f06-0daa-4fed-8277-d3d13057aa99/public_url",
-      "badge": "http://localhost:49226/files/badges/gitlab-certified-security-specialist.png"
+      "badge": "https://bahuma.io/files/badges/gitlab-certified-security-specialist.png"
     },
     {
       "date": "2014-07-01",

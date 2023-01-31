@@ -1625,10 +1625,15 @@ a:focus {
         font-size: 16px;
     }
 
+    .footer .footer-menu {
+        flex-flow: column;
+    }
+
     .footer .footer-menu p {
         font-size: 16px;
         line-height: 16px;
-        padding: 0 5px;
+        padding: 0;
+        border-right: none;
     }
 }
 

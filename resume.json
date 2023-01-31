@@ -215,6 +215,25 @@
   ],
   "skills": [
     {
+      "name": "Backend Development",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Spring",
+        "Micronaut",
+        "Drupal Framework",
+        "PHP",
+        "Symfony",
+        "MySQL",
+        "Solr",
+        "Redis",
+        "Elasticsearch / OpenSearch",
+        "express.js",
+        "Firebase"
+      ],
+      "icon": "fa fa-server"
+    },
+    {
       "name": "Frontend Development",
       "level": "Master",
       "keywords": [
@@ -228,26 +247,6 @@
         "Progressive Web Apps"
       ],
       "icon": "fa fa-desktop"
-    },
-    {
-      "name": "Backend Development",
-      "level": "Master",
-      "keywords": [
-        "Drupal 7",
-        "Drupal 8",
-        "Drupal 9",
-        "PHP",
-        "Symfony",
-        "Java",
-        "Spring",
-        "Micronaut",
-        "Solr",
-        "Redis",
-        "Firebase",
-        "express.js",
-        "MySQL"
-      ],
-      "icon": "fa fa-server"
     },
     {
       "name": "DevOps",

@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-if (!setlocale(LC_ALL, 'de_DE.UTF-8')) {
+if (!setlocale(LC_ALL, 'de_DE.utf8')) {
     if (!setlocale(LC_ALL, 'de_DE')) {
         error_log("Cannot set language");
     }

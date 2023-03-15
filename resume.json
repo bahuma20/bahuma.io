@@ -9,9 +9,9 @@
     "url": "https://bahuma.io",
     "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut.\nNeben der Softwareentwicklung bin ich ehrenamtlich im Leitungsteam der Kolpingsfamilie Dietfurt und beschäftige mit mit einigen Open Source Projekten, dem Fediverse und Self-Hosting.",
     "location": {
-      "address": "Dietfurter Weg 4",
-      "postalCode": "92336",
-      "city": "Breitenbrunn",
+      "address": "Ulrichsplatz 9",
+      "postalCode": "86150",
+      "city": "Augsburg",
       "countryCode": "DE",
       "region": "Bayern"
     },
@@ -133,6 +133,7 @@
       "position": "Leitungsteam",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2021-10-03",
+      "endDate": "2023-03-19",
       "summary": "Leitung der Kolpingsfamilie Dietfurt.",
       "highlights": []
     },
@@ -150,6 +151,7 @@
       "position": "Öffentlichkeitsarbeit",
       "url": "https://kolping-dietfurt.de",
       "startDate": "2019-03-24",
+      "endDate": "2023-03-19",
       "summary": "Betreuung der Social Media Profile, der Website und Gestaltung von Flyern, Broschüren und co.",
       "highlights": [
         "Youtube-Serie \"#Herzenssach\""

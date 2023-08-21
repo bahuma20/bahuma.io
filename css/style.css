@@ -1675,3 +1675,7 @@ a:focus {
         width: 100%;
     }
 }
+
+.about .about-img img {
+    opacity: 0;
+}

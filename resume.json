@@ -7,11 +7,11 @@
     "email": "max.bachhuber@bahuma.io",
     "phone": "+49 175 422 4666",
     "url": "https://bahuma.io",
-    "summary": "Ich habe mich auf moderne App- und Webentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut.",
+    "summary": "Ich habe mich auf cloudbasierte Softwareentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut.",
     "location": {
-      "address": "Ulrichsplatz 9",
-      "postalCode": "86150",
-      "city": "Augsburg",
+      "address": "Dietfurter Weg 4",
+      "postalCode": "92363",
+      "city": "Breitenbrunn",
       "countryCode": "DE",
       "region": "Bayern"
     },
@@ -47,10 +47,12 @@
       "position": "Expert Digital Development",
       "location": "Amberg",
       "startDate": "2021-05-02",
-      "summary": "Backend Development für die Cloud mit Java.",
+      "endDate": "2024-04-30",
+      "summary": "Backend-Entwicklung in einem Scrum-Team für eine angepasste Version des Conrad Electronic Onlineshops, der als E-Procurement-Plattform in SAP Systeme eingebunden werden kann, sowie einer Management-Plattform dafür. Betreuung des kompletten Development-Cycles inklusive Konzeption, Entwicklung, Deployment und Monitoring.",
       "highlights": [
         "OCI-Shop der Conrad Sourcing Platform",
-        "Kunden Selfservice-Portal"
+        "Kunden Selfservice-Portal",
+        "Portal zur Automatisierung der Lieferantenanbindung (EDI)"
       ],
       "url": "https://conrad.de"
     },
@@ -231,10 +233,38 @@
         "Solr",
         "Redis",
         "Elasticsearch / OpenSearch",
-        "express.js",
-        "Firebase"
+        "express.js"
       ],
       "icon": "fa fa-server"
+    },
+    {
+      "name": "Cloud",
+      "level": "Intermediate",
+      "keywords": [
+        "Google Cloud",
+        "GCP Datastore",
+        "GCP BigQuery",
+        "GCP Pub/Sub",
+        "GCP IAM",
+        "GCP Compute Engine",
+        "GCP Dataflow",
+        "Firebase",
+        "Apigee",
+        "AWS"
+      ],
+      "icon": "fa fa-cloud"
+    },
+    {
+      "name": "DevOps",
+      "level": "Master",
+      "keywords": [
+        "Kubernetes",
+        "Gitlab CI",
+        "Docker",
+        "Helm",
+        "Terraform"
+      ],
+      "icon": "fa fa-cog"
     },
     {
       "name": "Frontend Development",
@@ -250,20 +280,6 @@
         "Progressive Web Apps"
       ],
       "icon": "fa fa-desktop"
-    },
-    {
-      "name": "DevOps",
-      "level": "Intermediate",
-      "keywords": [
-        "Gitlab CI",
-        "Docker",
-        "Kubernetes",
-        "Helm",
-        "Terraform",
-        "Apigee",
-        "Google Cloud"
-      ],
-      "icon": "fa fa-cog"
     },
     {
       "name": "Videoproduktion",
@@ -316,7 +332,7 @@
     },
     {
       "name": "Self-Hosting",
-      "keywords": ["Matrix / Dendrite", "Mastodon", "Gitea", "Collabora", "Paperless"],
+      "keywords": ["Matrix / Dendrite", "Mastodon", "Collabora", "Paperless", "TrueNAS", "Nextcloud", "Kubernetes"],
       "icon": "fa fa-server"
     },
     {
@@ -352,7 +368,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "canonical": "https://gist.github.com/bahuma20/14c035bbdfa21e58953704d9ebf56280",
+    "canonical": "https://raw.githubusercontent.com/bahuma20/bahuma.io/master/resume.json",
     "theme": "elegant"
   }
 }

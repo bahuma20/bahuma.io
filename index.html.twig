@@ -39,7 +39,6 @@
                     "addressLocality": "{{ resume.basics.location.city }}",
                     "addressRegion": "{{ resume.basics.location.region }}",
                     "postalCode": "{{ resume.basics.location.postalCode }}",
-                    "streetAddress": "{{ resume.basics.location.address }}",
                     "addressCountry": "{{ resume.basics.location.countryCode }}"
                 },
                 "memberOf": {
@@ -150,7 +149,7 @@
                             <div class="about-details">
                                 <p><i class="fa fa-envelope"></i> <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a></p>
                                 <p><i class="fa fa-phone"></i> <a href="tel:{{ resume.basics.phone }}">{{ resume.basics.phone }}</a></p>
-                                <p class="about-location"><i class="fa fa-map-marker"></i> {{ resume.basics.location.address }}<br>{{ resume.basics.location.postalCode }} {{ resume.basics.location.city }}<br>Deutschland</p>
+                                <p class="about-location"><i class="fa fa-map-marker"></i> {{ resume.basics.location.postalCode }} {{ resume.basics.location.city }}<br>Deutschland</p>
                                 {% for profile in resume.basics.profiles %}
                                 <p><i class="{{ profile.icon }}"></i> <a href="{{ profile.url }}" rel="me" target="_blank" title="{{ profile.network }}">{{ profile.username }}</a></p>
                                 {% endfor %}
@@ -829,7 +828,7 @@
                 <div class="container">
                     <div class="footer-info">
                         <h2>{{ resume.basics.name }}</h2>
-                        <h3>{{ resume.basics.location.address }}, {{ resume.basics.location.postalCode }} {{ resume.basics.location.city }}, Deutschland</h3>
+                        <h3>{{ resume.basics.location.postalCode }} {{ resume.basics.location.city }}, Deutschland</h3>
                         <div class="footer-menu">
                             <p><a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a></p>
                             <p><a href="tel:{{ resume.basics.phone }}">{{ resume.basics.phone }}</a></p>

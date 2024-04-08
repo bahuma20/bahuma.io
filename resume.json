@@ -43,6 +43,17 @@
   },
   "work": [
     {
+      "company": "Kassenärztliche Vereinigung Bayerns",
+      "position": "Senior Developer",
+      "location": "München",
+      "startDate": "2024-05-01",
+      "summary": "Full-Stack Entwicklung im Team \"Mammasoft\"",
+      "highlights": [
+        "Dynamische Termineinladung und -buchung mit Auslastungsplanung für Mammographie-Screenings"
+      ],
+      "url": "https://www.kvb.de"
+    },
+    {
       "company": "Conrad Electronic SE",
       "position": "Expert Digital Development",
       "location": "Amberg",

@@ -323,12 +323,12 @@
   "interests": [
     {
       "name": "Gaming",
-      "keywords": ["RPGs", "Fabrik-Simulation", "Puzzle", "Point and Click Adventures"],
+      "keywords": ["RPGs", "Fabrik-Simulation", "Puzzle", "Minecraft", "Point and Click Adventures"],
       "icon": "fa fa-gamepad"
     },
     {
       "name": "Filme & Serien",
-      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "Superhero", "Comedy"],
+      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "MCU", "Comedy"],
       "icon": "fa fa-film"
     },
     {
@@ -374,7 +374,7 @@
     },
     {
       "name": "Podcasts",
-      "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio"],
+      "keywords": ["Discovery Panel", "WRINT", "Expertengespräche", "Der Weisheit", "Parlamentsrevue", "hock di her", "Deutschland 3000", "Cui Bono", "Lauwarmduscher", "Space Radio", "Chaosradio", "Wochendämmerung", "Einfach Marvel"],
       "icon": "fa fa-podcast"
     },
     {

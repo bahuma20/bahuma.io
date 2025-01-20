@@ -3,10 +3,10 @@
   "basics": {
     "name": "Max Bachhuber",
     "label": "Software-Entwickler, Backend Developer, Full-Stack-Developer, Serien-Junkie, Kolpingjugendlicher, Open Source Liebhaber, Early Adopter, Smart Home Spezialist",
-    "image": "https://bahuma.io/files/profile.jpg",
+    "image": "https://bahuma.de/img/about.jpg",
     "email": "max.bachhuber@bahuma.io",
     "phone": "+49 175 422 4666",
-    "url": "https://bahuma.io",
+    "url": "https://bahuma.de",
     "summary": "Ich habe mich auf cloudbasierte Softwareentwicklung spezialisiert und in diesem Bereich auch schon viele Projekte realisiert und Erfahrung sowohl in der Backend- als auch in der Frontend-Entwicklung aufgebaut.",
     "location": {
       "address": "Dietfurter Weg 4",
@@ -280,7 +280,8 @@
         "Gitlab CI",
         "Docker",
         "Helm",
-        "Terraform"
+        "Terraform",
+        "Flux CD"
       ],
       "icon": "fa fa-cog"
     },
@@ -305,7 +306,8 @@
       "keywords": [
         "Adobe Premiere Pro",
         "Adobe After Effects",
-        "Regie, Planung, Organisation"
+        "Regie, Planung, Organisation",
+        "Live-Streams"
       ],
       "icon": "fa fa-video"
     }
@@ -328,12 +330,8 @@
     },
     {
       "name": "Filme & Serien",
-      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "MCU", "Comedy"],
+      "keywords": ["Science Fiction", "Fantasy", "Drama", "Action", "Adventure", "Mystery", "MCU", "Comedy", "Animated"],
       "icon": "fa fa-film"
-    },
-    {
-      "name": "Geocaching",
-      "icon": "far fa-compass"
     },
     {
       "name": "Jugendarbeit",
@@ -345,7 +343,7 @@
     },
     {
       "name": "Fediverse",
-      "keywords": ["Mastodon", "Bookwyrm", "Pixelfed"],
+      "keywords": ["Mastodon", "Bookwyrm", "Pixelfed", "Lemmy"],
       "icon": "fa fa-project-diagram"
     },
     {
@@ -359,12 +357,12 @@
     },
     {
       "name": "Urban Art",
-      "keywords": ["Graffiti", "Street Art", "Architektur"],
+      "keywords": ["Street Art", "Graffiti", "Architektur"],
       "icon": "fa fa-city"
     },
     {
       "name": "Politik",
-      "keywords": ["Netzpolitik", "Energiepolitik", "Sozialpolitik", "Gesellschaftspolitik"],
+      "keywords": ["Netzpolitik", "Energie", "Solziales", "Gesellschaft", "Umwelt", "Digitalisierung"],
       "icon": "fa fa-landmark"
     },
     {

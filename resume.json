@@ -49,7 +49,9 @@
       "startDate": "2024-05-01",
       "summary": "Full-Stack Entwicklung im Team \"Mammasoft\"",
       "highlights": [
-        "Dynamische Termineinladung und -buchung mit Auslastungsplanung für Mammographie-Screenings"
+        "Dynamische Termineinladung und -buchung mit Auslastungsplanung für Mammographie-Screenings",
+        "Ablöse einer Spring Webflow Applikation mit Angular",
+        "Einbinden der Elektronischen Patientenakte (ePA) in Praxisverwaltungssystem MammaSoft"
       ],
       "url": "https://www.kvb.de"
     },

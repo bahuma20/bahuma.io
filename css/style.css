@@ -1679,3 +1679,12 @@ a:focus {
 .hero .hero-image img {
     opacity: 0;
 }
+
+.about-img {
+    text-align: center;
+}
+
+.about-img img {
+    max-width: 683px;
+    aspect-ratio: 1 / 1;
+}

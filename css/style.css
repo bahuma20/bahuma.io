@@ -1680,6 +1680,11 @@ a:focus {
     opacity: 0;
 }
 
+.hero-image {
+    height: 500px;
+}
+
+
 .about-img {
     text-align: center;
 }
